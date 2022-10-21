@@ -1,0 +1,370 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/fonts/Roboto-Regular.ttf");
+}
+.header{
+    background: #373A3C;
+    border-radius: 4px;
+    display: flex;
+    height: 60px;
+    width: 1400px;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__logo{
+    height: 28px;
+    width: 96px;
+    align-items:center ;  
+}
+.header__btn__Games{
+    top: calc(50% - 16px/2 - 0.5px);
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.header__btn__Consoles{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    padding-left: 20px;
+}
+.header__btn__Community{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+.header__search{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-left: 40px;
+    height: 38px;
+    width: 209px;
+
+
+    
+
+}
+.header__btn__MyXBOX{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    padding-left: 12px;
+}
+.header__btn__user{
+    padding-left: 20px;
+}
+/* section1 */
+.Carousel{
+
+    
+}
+.Carousel__img{
+    position: relative;
+    background: url(./1.png)no-repeat;
+    height: 788px;
+    width: 1401px;  
+}
+.Carousel__indicators{
+    position: absolute;
+    padding-top: 42%;
+    padding-left: 40%;
+}
+.Carousel__left{}
+.Carousel__title{
+    position: absolute;
+    top: calc(50% - 42px/2 - 94px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding-left: 59%;
+    margin-top: -5%;
+}
+.Carousel__subtitle{
+    position: absolute;
+    padding-left: 59%;
+    margin-top: -5%;
+    top: calc(50% - 28px/2 - 64px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.Carousel__btn{
+}
+.Carousel__btn__Trailer{
+    position: absolute;
+    background: #8DD83D;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 10px 27px 10px 27px;
+    margin-top: -17.29%;
+    margin-left: 59%;
+}
+.Carousel__btn__Explore{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 71%;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    top: calc(50% - 21px/2 - 0.5px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 10px 27px 10px 27px
+}
+.Carousel__right{
+    margin-left: 90%;
+    position: absolute;
+    margin-top: -46.5%;
+    
+}
+/* Registration */
+.registration{
+    margin: 0 auto;
+    height: 433px;
+    width: 300px;
+    background: #FDFDFF;
+    box-shadow: 0px 0px 30px rgba(0, 29, 108, 0.1);
+}
+.registration__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #979797;
+    padding-top: 15%;
+}
+.registration__Name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.registration__tel{
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.registration__email{
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.5);    
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.registration__password{
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.5);    
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.registration__send{
+    width: 220px;
+    height: 50px;
+    background: #8DD83D;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FDFDFF;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.registration__log{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: -10%;
+    padding-top: 6%;
+
+}   
+/* highlights */
+.highlights{
+    margin-top: -12%;
+    height: 865px;
+    width: 1400px;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+.highlights__logo{
+    margin-left: 48%;
+    margin-top: 7%;
+
+}
+.highlights__title{
+    top: calc(50% - 56px/2 - 260.5px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-left: 40%;
+}
+.highlights__subtitle{
+    top: calc(50% - 42px/2 - 213.5px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-left: 35%;
+    margin-top: -3%;
+}
+.highlights__card1{
+    margin-left:10%;
+
+}
+.highlights__card2{
+    margin-left:5%;
+
+}
+.highlights__card3{
+    margin-left:5%;
+
+
+}
+/* desigen */
+.desigen{
+    background: url(./Rectangle.png)no-repeat;
+    height: 480px;
+    width: 1400px;
+}
+.desigen__title{
+    top: calc(50% - 56px/2 - 98px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.desigen__subtitle{
+    top: calc(50% - 56px/2 - 32px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.desigen__yours{
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    top: calc(50% - 21px/2 + 0.5px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 15px 50px 15px 50px;
+}
+.desigen__explore{
+    background: #8DD83D;
+    border-radius: 4px;
+    top: calc(50% - 21px/2 - 0.5px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 15px 20px 15px 20px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    background: #373A3C;
+    height: 395px;
+width: 1400px;
+
+
+}
